@@ -1,0 +1,114 @@
+/* NewsAPI Style Section */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: tahoma;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(251, 254, 255);
+}
+
+.newsContainer {
+  margin: 50px auto;
+  /* display: grid; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.news{
+  /* max-width: 600px; */
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.news_title{
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.srhButton{
+  padding: 12px; 
+  background-color: grey;
+  color: white;
+  border: none;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.news_description{
+  padding-top: 10px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+/* .news_urlToImage{
+  margin-right: 10px;
+  color: purple;
+} */
+
+.news_published{
+  margin-right: 10px;
+}
+
+.news_sourceName, .news_published {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(11, 135, 11)
+}
+
+.testHeader{
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  /* color: rgb(85, 85, 180); */
+}
+
+.testButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.testInput{
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  width: 70%;
+}
+.testInput1{
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  width: 35%;
+}
+
+.row{
+  display: grid;
+}
+
+.AppButton{
+  padding: 12px; 
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
